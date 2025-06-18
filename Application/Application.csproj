@@ -1,13 +1,31 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Domain\Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
+		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0-rc.2.22472.11" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Common\Exceptions\" />
+		<Folder Include="Common\Interfaces\" />
+		<Folder Include="Common\Mappings\" />
+		<Folder Include="Common\Models\" />
+		<Folder Include="Common\Security\" />
+		<Folder Include="WeatherForecasts\" />
+		<Folder Include="TodoLists\" />
+		<Folder Include="TodoItems\" />
+	</ItemGroup>
 
 </Project>
