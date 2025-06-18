@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using Application.Common.Interfaces;
+using MediatR;
 using System.Reflection;
 
 namespace Application.Common.Behaviours;
