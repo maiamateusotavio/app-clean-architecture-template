@@ -20,7 +20,6 @@
 	<ItemGroup>
 		<Folder Include="WeatherForecasts\" />
 		<Folder Include="TodoLists\" />
-		<Folder Include="TodoItems\" />
 	</ItemGroup>
 
 </Project>
