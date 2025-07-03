@@ -1,5 +1,4 @@
-﻿using Application.Common.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace Infrastructure.Persistence.Migrations;
@@ -527,5 +526,4 @@ partial class ApplicationDbContextModelSnapshot : ModelSnapshot
         });
 #pragma warning restore 612, 618
     }
-}
 }

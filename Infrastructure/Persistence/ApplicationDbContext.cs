@@ -1,8 +1,11 @@
 ﻿using Application.Common.Interfaces;
 using Domain.Entities;
+using Duende.IdentityServer.EntityFramework.Options;
+using Infrastructure.Common;
 using Infrastructure.Identity;
 using Infrastructure.Persistence.Interceptors;
 using MediatR;
+using Microsoft.AspNetCore.ApiAuthorization.IdentityServer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using System.Reflection;
