@@ -1,5 +1,4 @@
 using Application.WeatherForecasts.Queries.GetWeatherForecasts;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebUI.Controllers;
